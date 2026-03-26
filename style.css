@@ -23,6 +23,30 @@ main{
     width: 30rem;
 }
 
+#endScreen{
+    width: 100%;
+    height: auto;
+    background-color: rgb(247, 214, 188);
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+    img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
+
+.score-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
 .card{
     padding: 10px;
 }
